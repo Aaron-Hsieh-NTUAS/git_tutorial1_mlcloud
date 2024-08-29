@@ -1,3 +1,6 @@
+def add(a, b):
+    return a + b
+
 a = float(input("Enter the first number: "))
 b = float(input("Enter the second number: "))
 operation = input("Choose an operation (+, -, x, /): ").strip()
