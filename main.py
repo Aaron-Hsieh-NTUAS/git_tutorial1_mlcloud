@@ -1,4 +1,4 @@
-def add(a, b):
+def Add(a, b):
     return a + b
 
 a = float(input("Enter the first number: "))
@@ -8,14 +8,14 @@ operation = input("Choose an operation (+, -, x, /): ").strip()
 
 if operation == "+":
     # TODO
-    # print(Add(a, b))
-elif operation == "-":
+    print(Add(a, b))
+# elif operation == "-":
     # TODO
     # print(Minus(a, b))
-elif operation == "x":
+# elif operation == "x":
     # TODO
     # print(Multiply(a, b))
-elif operation == "/":
+# elif operation == "/":
     # TODO
     # print(Divide(a, b))
 else:
